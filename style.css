@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  overflow: hidden;
+  background-color: brown;
+  padding: 20px;
+}
+
+nav a {
+  float:left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 11px 20px;
+  text-decoration: none;
+}
+
+nav .leftlink  {
+  float: left;
+}
+
+nav .rightlink  {
+  float: right;
+}
+
+nav a:hover {
+  background-color: lightgrey;
+  color: black;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side {
+  flex: 30%;
+  background-color: grey;
+  padding: 20px;
+}
+
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+footer {
+  background-color: brown;
+  overflow: hidden;
+  padding: 10px;
+}
+
+footer ul {
+  margin-top: 0;
+  padding: 0;
+  text-align: center;
+}
+
+footer ul a {
+  color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 150px;
+}
+
+footer ul a p {
+  text-align: left;
+}
+
+footer .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 15px;
+  color: black;
+}
